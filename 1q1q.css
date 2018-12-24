@@ -1,0 +1,38 @@
+h1{
+    
+   
+
+   
+    
+    
+}
+*{
+    margin:0;
+    padding: 0;
+}
+ul{
+    /*去除项目默认编号*/
+    list-style: none;
+}
+li{
+    float: left;
+}
+a{
+    /*去除下划线*/
+    text-decoration: none;
+    /*设置为块元素*/
+    display: block;
+    /*设置高度*/
+    height: 30px;
+    /*设置高度*/
+    width: 100px;
+    /*设置文字垂直居中*/
+    line-height: 30px;
+    /*设置背景颜色*/
+    background-color: #ccc;
+    /*设置首行缩进，目的为了不让文字紧贴左边界*/
+    text-align:center;
+}
+a:hover{
+    background-color: darkorange;
+}

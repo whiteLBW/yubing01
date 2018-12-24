@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 311px;
+    height: 168px;
+    margin: 10 auto;
+    display: block;
+}
+@keyframes gogogo{
+    from{transform: rotateY(0)}
+    to{transform: rotateY(360deg)}
+}
+.active{
+    animation: gogogo 2s ease-in;
+}
+*{margin:0;padding:0;}
+	body{background-color:#0096dd;}
+	#lanren{
+		width:156px;
+		height:156px;
+		margin:100px auto;
+		background:url(foxtail.png) no-repeat 0 0;
+		animation:animate-tail 3.75s steps(44) infinite;
+	}
+	@keyframes animate-tail{
+		0%{background-position:-6864px 0;}
+		100%{background-position:0 0;}
+	}
+
